@@ -1,5 +1,7 @@
 # kimwili
-Application android sur l'activité physique
+Application android sur l'activité physique réalisé en groupe de 2 personnes :
+Jeanne BERTOUX
+Kilian CORBEL.
 
 Menu principal avec tous les sous menus :
 -	Activité,
