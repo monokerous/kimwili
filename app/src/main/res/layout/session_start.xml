@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/border"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logokimwili" />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvActivite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/timerValue"
+        android:textColor="@color/color21"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvActivite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnHome"
+        android:layout_centerHorizontal="true"
+        android:text="Démarrer une session"
+        android:textColor="@color/color21"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnDemarrer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnArreter"
+        android:layout_alignBottom="@+id/btnArreter"
+        android:layout_toLeftOf="@+id/btnTerminer"
+        android:layout_toStartOf="@+id/btnTerminer"
+        android:background="@drawable/button_border"
+        android:text="Démarrer"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/btnArreter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTimer"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/btnTerminer"
+        android:layout_toRightOf="@+id/btnTerminer"
+        android:background="@drawable/button_border"
+        android:text="Arrêter"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/btnTerminer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_border"
+        android:text="Terminer"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etKmParcourus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDemarrer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Quelle distance avez-vous parcouru ?"
+        android:textColor="@color/color21" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etKmParcourus"
+        android:layout_centerHorizontal="true"
+        android:text="Quelle niveau de douleur avez vous ressenti ?"
+        android:textColor="@color/color21" />
+
+    <EditText
+        android:id="@+id/etNiveauDouleur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etKmParcourus"
+        android:layout_alignStart="@+id/etKmParcourus"
+        android:layout_below="@+id/textView12"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</RelativeLayout>

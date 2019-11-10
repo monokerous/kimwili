@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lst_activite">Liste déroulante d\'activités
+        <item>Course</item>
+        <item>Marche</item>
+        <item>Vélo</item>
+        <item>Natation</item>
+    </string-array>
+
+    <string-array name="emplacementDouleurs">Liste des emplacements de douleurs
+        <item>Tête</item>
+        <item>Epaules</item>
+        <item>Haut du dos</item>
+        <item>Bas du dos</item>
+        <item>Pectoraux</item>
+        <item>Abdominaux</item>
+        <item>Jambes</item>
+        <item>Pieds</item>
+    </string-array>
+</resources>

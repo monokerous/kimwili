@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logokimwili" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_activite"
+        android:layout_alignStart="@+id/et_activite"
+        android:layout_below="@+id/btnHome"
+        android:ems="10"
+        android:inputType="date"
+        android:text="1/04/2018" />
+
+    <EditText
+        android:id="@+id/Km_Parcouru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_niveau_douleur"
+        android:layout_alignLeft="@+id/et_niveau_douleur"
+        android:layout_alignStart="@+id/et_niveau_douleur"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/km_parcouru" />
+
+    <EditText
+        android:id="@+id/et_niveau_douleur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_duree_session"
+        android:layout_alignLeft="@+id/et_duree_session"
+        android:layout_alignStart="@+id/et_duree_session"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/niveauDouleur" />
+
+    <EditText
+        android:id="@+id/et_duree_session"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/duree_session" />
+
+    <EditText
+        android:id="@+id/et_activite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Km_Parcouru"
+        android:layout_alignLeft="@+id/Km_Parcouru"
+        android:layout_alignStart="@+id/Km_Parcouru"
+        android:layout_marginBottom="23dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/activite" />
+
+</RelativeLayout>

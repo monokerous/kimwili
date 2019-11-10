@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Kimwili</string>
+    <string name="course">course</string>
+    <string name="natation">natation</string>
+    <string name="marche">marche</string>
+    <string name="velo">vélo</string>
+    <string name="activite">Activité</string>
+    <string name="session">Session</string>
+    <string name="statistique">Statistique</string>
+    <string name="mesDonnees">Mes données</string>
+    <string name="niveauDouleur">Niveau de douleur</string>
+    <string name="Activite_title">Activité</string>
+    <string name="ajouter_image">Ajouter une image</string>
+    <string name="nom_de_l_activit">Nom de l\'activité</string>
+    <string name="Statistique_title">Statistiques</string>
+    <string name="desc">bouton ajouter</string>
+    <string name="Session_title">Session</string>
+    <string name="nom">nom</string>
+    <string name="prenom">prenom</string>
+    <string name="poids">poids</string>
+    <string name="taille">taille</string>
+    <string name="mesDonnees_title">Mes données</string>
+    <string name="valider">Valider l\'activité</string>
+
+    <string name="km_parcouru">Nombre de km parcourus</string>
+    <string name="duree_session">durée de la session</string>
+    <string name="titreActivite">Envie de démarrer une activité ?</string>
+    <string name="startActivite">C\'est parti!</string>
+    <string name="addActivite">Votre activité manque à l\'appel ?</string>
+    <string name="addActivite2">Ajoutez la !</string>
+    <string name="home_desc">Retour à l\'accueil</string>
+    <string name="logo">logo</string>
+    <string name="addActiviteTitre">Qu\'allez vous pratiquer ?</string>
+    <string name="addActiviteDesc">Ajoutez-y une image</string>
+    <string name="timerValue">00:00:00</string>
+    <string name="selectSesion">Selectionnez une session</string>
+    <string-array name="spinnerEmplacement" >
+        <item>Tête</item>
+        <item>Cervicales</item>
+        <item>Haut du dos</item>
+        <item>Bas du dos</item>
+        <item>Jambes</item>
+        <item>Pieds</item>
+    </string-array>
+</resources>

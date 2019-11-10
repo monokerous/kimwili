@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jeannebertoux.kimwili.Controller.AjouterActiviteActivity">
+
+
+    <EditText
+        android:id="@+id/et_nom_activite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nom_de_l_activit" />
+
+
+    <Button
+        android:id="@+id/btn_ajouter_activite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_border"
+        android:onClick="btnClick"
+        android:text="@string/ajouter_image"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/btn_ajouter_activite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/et_nom_activite"
+        android:layout_alignEnd="@+id/btnHome"
+        android:layout_alignRight="@+id/btnHome"
+        android:layout_marginBottom="13dp"
+        android:text="@string/addActiviteTitre"
+        android:textColor="#4C221C" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/addActiviteDesc"
+        android:textColor="#4C221C" />
+
+    <Button
+        android:id="@+id/btnAjouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/button_border"
+        android:text="Ajouter"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/border"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logokimwili" />
+
+    <!--   <Button
+           android:id="@+id/btn_valider"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/btn_ajouter_activite"
+           android:layout_alignParentBottom="true"
+           android:layout_alignStart="@+id/btn_ajouter_activite"
+           android:text="@string/valider"
+           android:onClick="passData"/> -->
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.jeannebertoux.kimwili.Controller.Accueil">
+
+
+    <ImageView
+        android:id="@+id/logoKimwili"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logokimwili"
+        app:srcCompat="@drawable/logokimwili"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btnSession"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/logoKimwili"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_toLeftOf="@+id/btnActivite"
+        android:layout_toStartOf="@+id/btnActivite"
+        android:background="@drawable/button_border"
+        android:fontFamily="cursive"
+        android:text="Mes sessions"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnActivite"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/btnDonnees"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="cursive"
+        android:text="Mes activités"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnNiveauDouleur"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/btnSession"
+        android:layout_alignStart="@+id/btnSession"
+        android:layout_alignTop="@+id/btnDonnees"
+        android:background="@drawable/button_border"
+        android:fontFamily="cursive"
+        android:text="Gérer ma douleur"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnDonnees"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/btnActivite"
+        android:layout_alignStart="@+id/btnActivite"
+        android:layout_below="@+id/btnSession"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="cursive"
+        android:text="Mes données"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="18sp" />
+
+</RelativeLayout>
