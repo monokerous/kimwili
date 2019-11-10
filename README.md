@@ -1,5 +1,5 @@
 # kimwili
-Application android sur l'activité physique réalisé en groupe de 2 personnes :
+Application android sur l'activité physique réalisée en groupe de 2 personnes :
 Jeanne BERTOUX
 Kilian CORBEL.
 
